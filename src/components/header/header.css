@@ -3,9 +3,17 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #f1f1f1;
+    background-color: #12222A;
+    padding: 30px 25px;
+    height: 40px;
 }
 
+.navbar h3 {
+    margin-right: auto;
+    padding-right: 10px;
+    font-size: 22px;
+    color: #61dafb;
+}
 .list {
     display: flex;
     flex-direction: row;
@@ -17,6 +25,7 @@
     text-decoration: none;
     list-style: none;
      padding: 10px;
+     color: #f1f1f1;
 }
 .logo {
     width: 70px;

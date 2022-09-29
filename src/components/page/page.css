@@ -1,0 +1,33 @@
+
+body {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    background-color: #282c34;
+
+}
+
+.card {
+    color: #f1f1f1;
+    padding: 57px 27px;
+    height: 100vh;
+    background-image: url("/public/logo512.png");
+    background-repeat: no-repeat;
+    background-position: 120% 30%;
+
+
+
+
+}
+.card ul li {
+    font-size: 22px;
+    font-weight: 600;
+    padding-block: 10px;
+
+}
+/*marker sudo selector*/
+.card ul li::marker {
+    font-size: 1.2em;
+   color:#61dafb;
+
+}
